@@ -226,9 +226,14 @@ LLM_BACKEND = "ollama"      # Yerel/bedava — veri makineden çıkmaz
 | `MIN_SIMILARITY` | `0.35` | Bu skorun altındaki parçalar "alakasız" sayılır |
 | `LLM_TEMPERATURE` | `0.0` | 0 = en tutarlı, en az halüsinasyon |
 
-İpucu: model "bulamadım" derken cevap aslında belgedeyse, bu çoğunlukla bir
-**arama (recall)** sorunudur — `TOP_K`'yı artır (örn. 12). Yeniden indekslemeye
-gerek yoktur; `TOP_K`/`MIN_SIMILARITY` anında etkilidir.
+**İpuçları:**
+- Daha **çok belge** görmek istersen `TOP_K`'yı artır (8 → 12).
+- Alakasızları daha sıkı elemek istersen `MIN_SIMILARITY`'yi yükselt (0.35 → 0.45).
+- Model "bulamadım" derken cevap aslında belgedeyse, bu çoğunlukla bir **arama (recall)**
+  sorunudur → `TOP_K`'yı artır.
+
+Bu iki ayar **anında** etkilidir; değiştirince yeniden indekslemeye gerek yoktur
+(yalnızca belge eklediğinde `ingest.py` gerekir).
 
 ---
 
