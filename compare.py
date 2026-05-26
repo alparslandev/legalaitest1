@@ -32,10 +32,6 @@ def compare(question: str) -> None:
 
     print("\n" + "=" * 72)
     print("SORU:", question)
-    if relevant:
-        print("Getirilen kaynaklar:", ", ".join(sorted({h["source"] for h in relevant})))
-    else:
-        print("Getirilen kaynak yok (esik alti).")
     print("=" * 72)
 
     # Tum modeller AYNI parcalari gorur -> adil kiyas.
@@ -50,6 +46,14 @@ def compare(question: str) -> None:
         except Exception as e:  # noqa: BLE001 - kiyasta bir model patlasa digerleri devam etsin
             cevap = f"[hata] {e}"
         print(cevap)
+
+    if relevant:
+        print("\n-- Kullanilan kaynaklar (tum modeller icin ortak) --")
+        seen: set[str] = set()
+        for h in relevant:
+            if h["source"] not in seen:
+                print(f"  - {h['source']} (skor: {h['score']:.2f})")
+                seen.add(h["source"])
     print()
 
 
