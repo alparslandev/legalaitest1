@@ -1,0 +1,9 @@
+.venv/
+storage/
+.env
+__pycache__/
+*.pyc
+
+# Gercek/ozel belgeler ASLA yayinlanmaz (telifli icerik, gizli dosyalar vb.).
+# Kendi belgelerini buraya koy; GitHub'a gitmez. Demo icin sentetik ornekler: examples/
+documents/

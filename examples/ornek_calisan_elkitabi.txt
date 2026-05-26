@@ -1,0 +1,13 @@
+ÖRNEK ÇALIŞAN EL KİTABI (KURGUSAL — demo amaçlıdır, gerçek bir belge değildir)
+
+Madde 1 — Çalışma süresi
+Haftalık çalışma süresi en çok 45 saattir.
+
+Madde 2 — Yıllık ücretli izin
+Bir yılını dolduran çalışan 14 gün yıllık ücretli izne hak kazanır. Beş yıldan fazla çalışan için bu süre 20 güne çıkar.
+
+Madde 3 — Fazla mesai
+Fazla mesai ücreti, normal saat ücretinin bir buçuk katıdır.
+
+Madde 4 — İzin talebi
+Yıllık izin, kullanılmadan en az on gün önce yazılı olarak talep edilir.

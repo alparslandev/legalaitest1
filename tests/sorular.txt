@@ -1,0 +1,12 @@
+# Demo dogruluk testi - examples/ icindeki KURGUSAL belgelere gore.
+# Format:
+#   soru | beklenen ifade   -> cevapta bu ifade GECMELI (PASS)
+#   soru | BULAMADI          -> cevap "bulamadim" OLMALI (belgede yok dogrulamasi)
+#   soru                     -> sadece goster, otomatik kontrol yok
+# Kendi belgelerinle calisirken bu dosyayi kendi sorularinla degistir.
+
+Konut kirasında güvence bedeli en çok ne kadar olabilir? | üç ay
+Kiracı sözleşmeyi feshetmek için kaç gün önce bildirim yapmalı? | on beş
+Bir yılını dolduran çalışan kaç gün yıllık izne hak kazanır? | 14
+Haftalık azami çalışma süresi kaç saattir? | 45
+Boşanmada mal paylaşımı nasıl yapılır? | BULAMADI

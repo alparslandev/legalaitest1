@@ -1,0 +1,16 @@
+ÖRNEK KİRA YÖNETMELİĞİ (KURGUSAL — yalnızca demo amaçlıdır, gerçek mevzuat değildir)
+
+Madde 1 — Tanımlar
+Bu yönetmelikte "kiracı" taşınmazı kullanan tarafı, "kiraya veren" taşınmazın malikini ifade eder.
+
+Madde 2 — Kira bedelinin ödenmesi
+Kira bedeli her ayın ilk beş günü içinde peşin olarak ödenir.
+
+Madde 3 — Güvence bedeli (depozito)
+Konut kiralarında güvence bedeli en çok üç aylık kira bedeli kadar olabilir. Güvence bedeli vadeli bir hesaba yatırılır ve sözleşme sonunda kiracıya iade edilir.
+
+Madde 4 — Sözleşmenin feshi
+Kiracı, sözleşmeyi sona erdirmek için en az on beş gün önce yazılı bildirimde bulunur. Süresinde bildirim yapılmazsa sözleşme aynı koşullarla bir yıl uzar.
+
+Madde 5 — Onarımlar
+Önemli onarımlar kiraya verene, küçük günlük bakım giderleri ise kiracıya aittir.
